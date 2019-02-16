@@ -1,8 +1,0 @@
-prefix=/tmp/catkin_ws/install
-
-Name: camera_calibration_parsers
-Description: Description of camera_calibration_parsers
-Version: 1.11.13
-Cflags: -I/tmp/catkin_ws/install/include
-Libs: -L/tmp/catkin_ws/install/lib -lcamera_calibration_parsers
-Requires: sensor_msgs
