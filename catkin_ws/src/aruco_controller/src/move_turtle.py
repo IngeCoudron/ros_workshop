@@ -31,7 +31,7 @@ def callback(msg):
             4: (-1.0, 0.0), # DOWN
             5: (0.0, 1.0)   # LEFT
         }
-        linear_, angular_ = switcher[int(ids[0])]
+        linear_, angular_ = switcher.get(int(ids[0]),(0., 0.))
         
         # Publish velocity command
         cmd = Twist()
