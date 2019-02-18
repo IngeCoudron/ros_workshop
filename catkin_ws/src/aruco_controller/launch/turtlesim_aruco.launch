@@ -1,0 +1,5 @@
+<launch>
+    <node name="turtle_sim" pkg="turtlesim" type="turtlesim_node" />
+    <node name="move_turtle" pkg="aruco_controller" type="image_publisher.py" args="/root/_data/Turtle_control.webm" />
+    <node name="image_publisher" pkg="aruco_controller" type="move_turtle.py" />
+</launch>

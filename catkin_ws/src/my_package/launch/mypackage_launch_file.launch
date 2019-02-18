@@ -1,0 +1,5 @@
+<launch>
+    <node name="turtle_sim" pkg="turtlesim" type="turtlesim_node" />
+    <node name="subscriber" pkg="my_package" type="subpose.py" />
+    <node name="publisher" pkg="my_package" type="pubvel.py" />
+</launch>
